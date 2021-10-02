@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="xxexample.fhir.uv.myig"/>
+  <id value="practiceig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PracticeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hepainfo.org/fhir/myig/ImplementationGuide/practiceig</pre><div><p>This is only a practice document.</p>
 </div></div>
   </text>
-  <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
+  <url value="http://hepainfo.org/fhir/myig/ImplementationGuide/practiceig"/>
   <version value="0.1.0-test"/>
-  <name value="XXYourComputableMyIGNameHere"/>
-  <title value="xxYour User Friendly Name for MyIG Here"/>
+  <name value="PracticeIG"/>
+  <title value="Practice Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-09-26T09:28:31+00:00"/>
-  <publisher value="xxxYour Work Group"/>
+  <date value="2021-10-02T05:21:17+00:00"/>
+  <publisher value="Hepainformatics Group"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://xxhl7.org/Special/committees/[something]"/>
+      <value value="http://hepainfo.org/"/>
     </telecom>
   </contact>
-  <description value="xxxA brief description of what this IG is about "/>
+  <description value="This is only a practice document."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="xxexample.fhir.uv.myig"/>
+  <packageId value="hepainfo.fhir.practiceig"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
@@ -124,7 +124,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://xxsomewhere.org/fhir/myig/history.html"/>
+        <valueString value="http://hepainfo.org/fhir/myig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

@@ -1,29 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxexample.fhir.uv.myig",
+  "id": "practiceig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PracticeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hepainfo.org/fhir/myig/ImplementationGuide/practiceig</pre><div><p>This is only a practice document.</p>\n</div></div>"
   },
-  "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+  "url": "http://hepainfo.org/fhir/myig/ImplementationGuide/practiceig",
   "version": "0.1.0-test",
-  "name": "XXYourComputableMyIGNameHere",
-  "title": "xxYour User Friendly Name for MyIG Here",
+  "name": "PracticeIG",
+  "title": "Practice Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-09-26T09:28:31+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2021-10-02T05:21:17+00:00",
+  "publisher": "Hepainformatics Group",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "http://xxhl7.org/Special/committees/[something]"
+          "value": "http://hepainfo.org/"
         }
       ]
     }
   ],
-  "description": "xxxA brief description of what this IG is about ",
+  "description": "This is only a practice document.",
   "jurisdiction": [
     {
       "coding": [
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "packageId": "xxexample.fhir.uv.myig",
+  "packageId": "hepainfo.fhir.practiceig",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -192,7 +192,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://xxsomewhere.org/fhir/myig/history.html"
+            "valueString": "http://hepainfo.org/fhir/myig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
