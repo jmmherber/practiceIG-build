@@ -1,11 +1,11 @@
 {
-  "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-  "name": "XXYourComputableMyIGNameHere",
-  "package-id": "xxexample.fhir.uv.myig",
+  "url": "http://hepainfo.org/fhir/myig/ImplementationGuide/practiceig",
+  "name": "PracticeIG",
+  "package-id": "hepainfo.fhir.practiceig",
   "ig-ver": "0.1.0-test",
-  "date": "Sun, 26 Sep, 2021 09:28:31 +0000",
+  "date": "Sat, 02 Oct, 2021 05:21:17 +0000",
   "errs": 1,
-  "warnings": 0,
+  "warnings": 1,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
